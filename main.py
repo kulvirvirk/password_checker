@@ -4,9 +4,9 @@
 # 3. also, cover the password with * 
 
 
-username = input('Hi there, enter your username: ')
+username = input('Hi, enter your username: ')
 password = input('Enter your password: ')
 
 password_length = len(password)
 covered_password = '*' * password_length
-print(f'Hi {username}, your {covered_password} is {password_length} char(s) long!')
+print(f'Hi {username}, your password {covered_password} is {password_length} char(s) long!')
